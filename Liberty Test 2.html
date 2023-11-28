@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta view content="width=device-width, initial-scale=1.0">
+    <body><!DOCTYPE html>
+        <html>
+        <head>
+            <title>Website with 2 divs on top and an image as the background</title>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Inter:wght@500&family=Montserrat:wght@300&family=Playfair+Display&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap');
+                body {
+                    background-image: url('https://i8.amplience.net/i/liberty/Black-Friday-Hero-Mob?fmt=auto&qlt=55&metadata=true$poieg$&w=1088&sm=c&poi={$this.metadata.pointOfInterest.x},{$this.metadata.pointOfInterest.y},{$this.metadata.pointOfInterest.w},{$this.metadata.pointOfInterest.h}&scaleFit=poi');
+                }
+                #div1 {
+                    background-color: #4f0341;
+                    background-size: cover;
+                    height: 23px;
+                    width: 100%;
+                    position: relative;
+                    background-size: cover;
+                    color: white;
+                    text-align: center;
+                    font-size: 14px;
+                    z-index: 1;
+                }
+                #div2 {
+                    background-color: white;
+                    height: 50px;
+                    width: 100%;
+                    z-index: 2;
+                }
+                .top-note {
+                    background-color: #4f0341;
+                    color: white; 
+                    padding: 10px;
+                }
+
+                .top-left-note {
+                    padding-right: 40px;
+                    padding-left: 0px;
+                    font-family: Akzidenz Grotesk Pro,sans-serif;
+                    font-weight: 400;
+
+                }
+
+                .top-right-note {
+                    padding-left: 70px;
+                }
+
+                .top-middle-note {
+                    padding-left: 480px;
+                    font-family: Akzidenz Grotesk Pro,sans-serif;
+                    font-weight: 400;
+                }
+
+                .text-decoration {
+                    
+                    padding-right: 290px;
+                }
+
+                .top-middle-note, .text-decoration {
+                    text-align: center;
+                }
+
+                #nav2 {
+                    background-color: #fff;
+                }
+
+                ul {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                }
+
+                li {
+                    float: left;
+                }
+
+                li a {
+                    display: block;
+                    color: black;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                }
+
+                .top-left-note {
+                    margin: 0; /* Remove default margin */
+                }
+
+                /* Add style for underline in the text */
+                .top-note text-decoration {
+                    text-decoration: underline;
+                }
+
+                .logo {
+                    font-size: 40px;
+                    padding: 10px;
+                    padding-left: 30px;
+                    font-family: 'Akzidenz Grotesk Pro',sans-serif;
+                    font-weight: 400;
+                    text-align: left;
+                }
+
+                .tabs {
+                    float: right;
+                    word-spacing: 40px;
+                    padding-right: 80px;
+                    padding-top: 0px;
+                    font-family: 'Akzidenz Grotesk Pro',sans-serif;
+                    font-weight: 400;
+                    line-height: 36px;
+                }
+
+                .tabs a {
+                    text-decoration: none;
+                    color: black;
+                }
+
+                
+                .material-symbols-outlined {
+                    font-variation-settings:
+                    'FILL' 0,
+                    'wght' 400,
+                    'GRAD' 0,
+                    'opsz' 24;
+                    word-spacing: 0px;
+                    padding-top: 7px;
+                }
+
+                .bio {
+                    color: white;
+                    font-family: 'Caudex', serif;
+                    font-weight: 400;
+                    padding-top: 110px;
+                    box-sizing: content-box;
+                    margin: 10px;
+                }
+
+                h1 {
+                    font-size: 100px;
+                    font-weight: 200;
+                    text-transform: uppercase;
+                }
+
+                h3 {
+                    font-family: 'Akzidenz Grotesk Pro',sans-serif;
+                    padding-bottom: 0px;
+                    text-transform: uppercase;
+                }
+
+                h5 {
+                    font-family: 'Akzidenz Grotesk Pro',sans-serif;
+                    font-size: 20px;
+                   
+                }
+
+                button {
+                    background-color: transparent;
+                margin-top: 10px;
+                padding: 10px;
+                border-radius: 20px;
+                padding-right: 60px;
+                padding-left: 60px;
+                font-size: 15px;
+                font-family: 'Akzidenz Grotesk Pro', sans-serif;
+                font-weight: bold;
+                color: white;
+                border-color: white;
+                float: right;
+                margin: 10px;
+                }
+
+                .button {
+                    padding-top: 100px;
+                }
+
+            </style>
+        </head>
+        <body>
+            <div id="div1">
+                <h4 class="top-left-note"> EST. 1875 <span class="top-middle-note">15% off your first order when you register: </span><span class="text-decoration">NEWCUSTOMER15</span><span class="top-right-note">US/USD</span></h4>
+            </div>
+            <div id="div2">
+                <span class="logo">LIBERTY.</span>
+                    <div class = "tabs"> 
+                        <a href="/">BEAUTY</a>
+                        <a href="/">HOME</a>
+                        <a href="/">FABRICS</a>
+                        <a href="/">JEWELLERY</a>
+                        <a href="/">WOMEN</a>
+                        <a href="/">MEN</a>
+                        <a href="/">CHILDREN</a>
+                        <a href="/">GIFTS</a>
+                        <span  class="material-symbols-outlined">
+                            arrow_forward
+                        </span>
+                        <span class="material-symbols-outlined">
+                            search
+                        </span>
+                        <span class="material-symbols-outlined">
+                            favorite
+                        </span>
+                        <span class="material-symbols-outlined">
+                            person
+                        </span>
+                        <span class="material-symbols-outlined">
+                            shopping_bag
+                        </span>
+                    </div>    
+            </div>
+            <div class="bio">
+                <h3>Fabrics New Season: AW22</h3>
+                <h1>The House <br> Of Liberty</h1>
+                <button><span class="button">SHOP FABRICS</span></button>
+                <h5>This new season fabric collection celebrates Liberty's 145 year <br> 
+                    history of art and design, showcased through six key design <br>
+                    pillars reimagined by the London design studio.
+                </h5>
+                
+                
+
+                </div>
+
+                
+        </body>
+        </html>
+        
+</body>
+</html>
